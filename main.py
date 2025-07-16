@@ -38,7 +38,7 @@ from src.models.Registeruser import RegisterUser
 from src.utils.json_utils import convert_objectid_to_str
 
 # Configure logging
-logging.basicConfig(level=logging.INFO/////////////,,)
+logging.basicConfig(level=logging.INFO///////;///////,,)
 logger = logging.getLogger(__name__)
 metrics = RetrieveMetrics()
 
@@ -467,7 +467,7 @@ if __name__ == "__main__":
     ssl_context.verify_mode = ssl.CERT_NONE
 
     # Run the FastAPI app with SSL enabled
-    uvicorn.run("app, host=//////////////////////////////////////////////////)
+    uvicorn.run("app, host=////;,bh//////////////////////////////////////////////)
 
 def print_random_message():
     """
