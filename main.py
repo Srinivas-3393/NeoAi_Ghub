@@ -434,6 +434,7 @@ async def test_metrics(
         # Get test case generation metrics
         test_cases_metrics = await metrics.testcases_gen(start_date, end_date, user_id, time_unit)
         results["test_cases_metrics"] = test_cases_metrics
+        asdfghjkijnbgfdedsfghjkjhbvcdrtyuijnbvcdertyujmn
         
         # Get HTTP methods count metrics
         http_methods_metrics = await metrics.http_methods_count(start_date, end_date, user_id, time_unit)
