@@ -1,3 +1,4 @@
+bhhbbdhhdbbdhhhdbbbbdhhhbdbbdhhhdbbbdbhh
 import os
 import ssl
 import uvicorn
@@ -54,6 +55,7 @@ DEFAULT_PYTEST_OUTPUT_PATH = os.path.join(DEFAULT_UPLOAD_DIR, "test_api.py")
 DEFAULT_CURL_OUTPUT_PATH = os.path.join(DEFAULT_UPLOAD_DIR, "curl_requests.json")
 DEFAULT_MOCK_OUTPUT_PATH = os.path.join(DEFAULT_UPLOAD_DIR, "mock_api.py")
 BASE_URL = os.getenv("BASE_URL", "/test_ai")
+
 
 app = FastAPI(
     title="RESTFUL Test AI API",
@@ -436,6 +438,8 @@ async def test_metrics(
         # Get HTTP methods count metrics
         http_methods_metrics = await metrics.http_methods_count(start_date, end_date, user_id, time_unit)
         results["http_methods_metrics"] = http_methods_metrics
+        
+        sdfghgfdsa
         
         # Get project-user mapping
         project_mapping = await metrics.get_project_user_mapping()
